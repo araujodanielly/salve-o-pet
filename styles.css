@@ -299,6 +299,7 @@ h2 {
 .body--large {
     color: var(--write);
     padding: 1em 2em;
+    text-align: justify;
 }
 
 /*carousel*/
@@ -362,7 +363,6 @@ h2 {
     height: 250px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-
   }
   
   .current-item {
@@ -380,7 +380,6 @@ h2 {
   
 .footer {
     background: var(--write);
-   
 }
 
 .footer-2 {
