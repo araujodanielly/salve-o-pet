@@ -1,5 +1,8 @@
 const menuItems = document.querySelectorAll('.navbar__menu a[href^="#"]');
 
+const menu = document.querySelector('#mobile-menu')
+const menuLinks = document.querySelector('.navbar__menu')
+
 menuItems.forEach(item => {
   
   item.addEventListener('click', scrollToIdOnClick);
@@ -8,12 +11,18 @@ menuItems.forEach(item => {
 function getScrollTopByHref(element) {
   const id = element.getAttribute('href');
   return document.querySelector(id).offsetTop;
+
 }
 
 function scrollToIdOnClick(event) {
   event.preventDefault();
   const to = getScrollTopByHref(event.target) - 80;
   scrollToPosition(to);
+ 
+  if (menu){
+    menu.classList.remove('is-active')
+    menuLinks.classList.remove('active')
+  }
 }
 
 function scrollToPosition(to) {
@@ -45,11 +54,6 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 40); 
 };
-
-
-
-const menu = document.querySelector('#mobile-menu')
-const menuLinks = document.querySelector('.navbar__menu')
 
 menu.addEventListener('click', function() {
     menu.classList.toggle('is-active')
@@ -89,5 +93,3 @@ controls.forEach((control) => {
     items[currentItem].classList.add("current-item");
   });
 });
-
-
