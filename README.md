@@ -1,6 +1,7 @@
-![Apresentação de Pitch SALVE O PET](https://user-images.githubusercontent.com/107596902/196537024-ba7aadaa-d25e-495a-8779-bd4464043b7e.gif)
 
-<b> <h3> Projeto feito para conclusão do curso de pós-graduação da UNEMAT - Universidade do Estado de Mato Grosso. </b>
+https://user-images.githubusercontent.com/107596902/196560321-d276b604-d775-47bc-8375-3cfdb0dea0a1.mp4
+
+<h3> Projeto feito para conclusão do curso de pós-graduação da UNEMAT - Universidade do Estado de Mato Grosso. 
  
 <h4> Segundo a OMS, existem cerca de 30 milhões de animais abandonados no Brasil e mais de 14 mil animais abandonados na capital de Cuiabá. Pensando nisso, a Salve o PET™ busca facilitar o processo de adoção de cães no Brasil, aproximando voluntários e institutos, melhorando a vida de milhares de animais em situação de abandono. 
    <br> 
