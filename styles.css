@@ -31,6 +31,7 @@ h2 {
     margin: 1em 0;
 }
 
+
 .navbar {
     background-color: var(--write);
     height:  80px;
@@ -101,7 +102,7 @@ h2 {
 
 .navbar__links:hover {
     color: var(--orange);
-    transition: all 0.3s esase;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -213,8 +214,6 @@ h2 {
 .main__content h1 {
     font-size: 3.5rem;
     color:  var(--black);
-}
-   
     margin-bottom: 20px;
 }
 
@@ -283,6 +282,7 @@ h2 {
     .list-services p {
         padding: 1rem;
     }
+}
 
 .grid__content {
     background: var(--purple);
@@ -302,19 +302,19 @@ h2 {
 
 /*carousel*/
 
-  .container__carousel {
+.container__carousel {
     position: relative;
     padding: 15px;
     max-width: 640px;
     margin: 0 auto;
-  }
+}
   
-  .gallery-wrapper {
+.gallery-wrapper {
     overflow-x: auto;
-  }
+}
 
-  .arrow-left,
-  .arrow-right {
+.arrow-left,
+.arrow-right {
     position: absolute;
     top: 0;
     left: 0;
@@ -329,47 +329,48 @@ h2 {
     opacity: 0.1;
     cursor: pointer;
     border: none;
-  }
+}
   
-  .arrow-left:hover,
-  .arrow-right:hover {
+.arrow-left:hover,
+.arrow-right:hover {
     opacity: 1;
-  }
+}
   
-  .arrow-right {
+.arrow-right {
     right: 0;
     left: auto;
     text-align: right;
     background: transparent;
-  }
+}
   
-  .gallery {
+.gallery {
     display: flex;
     flex-flow: row nowrap;
     gap: 15px;
     text-align: center;
-  }
+}
 
-  .item {
+.item {
     width: 170px;
     height: 250px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-  }
+}
   
-  .current-item {
+.current-item {
     opacity: 1;
-  }
+}
   
-  .gallery-wrapper::-webkit-scrollbar {
+.gallery-wrapper::-webkit-scrollbar {
     display: none;
-  }
+}
   
-  .gallery-wrapper {
+.gallery-wrapper {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
-  }
+}
   
+
 /* Section-Form */
 
 .name__form  {
@@ -390,7 +391,7 @@ h2 {
     background-image: url(./images/patinhas.png);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
 .section-form .form-container form {
     display: flex;
@@ -403,9 +404,9 @@ h2 {
     color: var(--black);
     text-align: left;
     line-height: 35px;
-  }
+}
   
-  .section-form .form-container form button {
+.section-form .form-container form button {
     border: none;
     background-color: var(--orange);
     color: var(--write);
@@ -413,12 +414,12 @@ h2 {
     align-self: center;
     padding: 10px 20px;
     margin-top: 20px;
-  }
+}
   
-  .section-form .form-container form button:hover {
+.section-form .form-container form button:hover {
     background-color: var(--purple-b);
-    color: var(--write); 
-  }
+    color: var(--write);
+}
   
 .footer {
     background: var(--write);
