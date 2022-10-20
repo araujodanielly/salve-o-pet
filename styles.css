@@ -31,6 +31,9 @@ h2 {
     margin: 1em 0;
 }
 
+.container {
+    max-width: 1200px;
+  }
 .navbar {
     background-color: var(--write);
     height:  80px;
@@ -211,8 +214,9 @@ h2 {
 }
 
 .main__content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color:  var(--black);
+   
    
     margin-bottom: 20px;
 }
@@ -283,7 +287,6 @@ h2 {
     .list-services p {
         padding: 1rem;
     }
- 
 }
 
 .grid__content {
@@ -363,6 +366,7 @@ h2 {
     height: 250px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
+
   }
   
   .current-item {
@@ -376,6 +380,61 @@ h2 {
   .gallery-wrapper {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+  }
+  
+
+/* Section-Form */
+
+
+.name__form  {
+    background-color: transparent;
+    border-color: var(--purple);
+}
+
+.txtCharacter {
+    background-color: transparent;
+    border-color: var(--purple);
+}
+.section-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(./images/patinhas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.section-form .form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background-color: transparent;
+    border-style: groove;
+    border-color: var(--purple);
+    color: var(--black);
+    text-align: left;
+    line-height: 35px;
+    
+  }
+  
+  .section-form .form-container form button {
+    border: none;
+    background-color: var(--orange);
+    color: var(--write);
+    max-width: 300px;
+    align-self: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .section-form .form-container form button:hover {
+    background-color: var(--purple-b);
+    color: var(--write);
+    
   }
   
 .footer {
