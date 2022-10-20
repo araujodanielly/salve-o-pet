@@ -72,16 +72,16 @@
                 <ul class="list-services">
                     <div>
                         <div><img src="./images/maoecoracao.png" alt="icone de animal" class="main__img"></div>
-                            <p>Respeito à vida e bem-estar animal.</p>
+                            <p>Respeito à vida e aí bem-estar animal.</p>
                         </div>
                         <div>
                             <div><img src="./images/transparencia.png" alt="icone de transparência" class="main__img"></div>
-                            <p>Eficácia e transparência.</p>
+                            <p>Eficácia e transparência</p>
                         </div>
 
                         <div>
                             <div><img src="./images/sustentabilidade.png" alt="icone de sustentabilidade" class="main__img"></div>
-                            <p>Senso de sustentabilidade.</p>
+                            <p>Senso de sustentabilidade</p>
                         </div>
                     </div>
                 </ul>
@@ -107,14 +107,39 @@
                 <div class="gallery-wrapper">
                     <div class="gallery">
                         <ul><img src="./images/dani.png" alt="Integrante do grupo" class="item current-item">Danielly C. Araújo</ul>
-                        <ul><img src="./images/francis.jpeg" alt="Integrante do grupo" class="item current-item">Francismar Petini</ul>
-                        <ul><img src="./images/vagner.jpg" alt="Integrante do grupo" class="item current-item">Fagner M. L. Rodrigues</ul>
-                        <ul><img src="./images/gi.jpg" alt="Integrante do grupo" class="item current-item">Giselly Conceição</ul>
+                        <ul><img src="./images/francis.jpeg" alt="Integrante do grupo" class="item current-item">Francismar Marpetini</ul>
+                        <ul><img src="./images/vagner.jpg" alt="Integrante do grupo" class="item current-item">Fagner Magayver</ul>
+                        <ul><img src="./images/gi.jpg" alt="Integrante do grupo" class="item current-item">Giselly Concéição</ul>
                         <ul><img src="./images/vi.jpg" alt="Integrante do grupo" class="item current-item">Victor Silva</ul>
                     </div>
                 </div>
             </div>
     </section>
+   
+    <section id="section-form" class="section-form">
+        <div class="form-content">
+          <h2>Entre em contato</h2>
+
+          <div class="form-container">
+            <form>
+              <label for="name">Nome Completo</label>
+              <input type="text" name="name" id="txtName" class="name__form">
+
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="txtEmail" class="name__form">
+
+              <label for="level">Assunto</label>
+              <input type="text" name="subject" id="txtsubject" class="name__form">
+
+              <label for="character">Deixe sua mensagem (opcional)</label>
+              <textarea name="character" cols="30" rows="10" id="txtCharacter" class="txtCharacter">
+              </textarea>
+            
+              <button type="button" id="btnSubscribe">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
 
     <footer>
         <div class="footer-2">
@@ -123,7 +148,7 @@
             </p>
         </div>
     </footer>
-    
-    <script src="./scripts.js"></script> 
+    <script src="./js/firebase/main.js" type="module"></script>
+    <script src="./js/scripts.js"></script> 
 </body>
 </html>
